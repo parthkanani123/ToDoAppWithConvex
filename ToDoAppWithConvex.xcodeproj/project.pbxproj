@@ -195,6 +195,9 @@
 			);
 			mainGroup = 4F71CBBC2EC6E6D200D0A8C7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4F742A5C2EC770DD00631C90 /* XCRemoteSwiftPackageReference "convex-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4F71CBC62EC6E6D200D0A8C7 /* Products */;
 			projectDirPath = "";
@@ -550,6 +553,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F742A5C2EC770DD00631C90 /* XCRemoteSwiftPackageReference "convex-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/get-convex/convex-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 4F71CBBD2EC6E6D200D0A8C7 /* Project object */;
 }
