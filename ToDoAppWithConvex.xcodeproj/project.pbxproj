@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F69B30B2ECB384100567207 /* ConvexMobile in Frameworks */ = {isa = PBXBuildFile; productRef = 4F69B30A2ECB384100567207 /* ConvexMobile */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4F71CBD32EC6E6D400D0A8C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F69B30B2ECB384100567207 /* ConvexMobile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = ToDoAppWithConvex;
 			packageProductDependencies = (
+				4F69B30A2ECB384100567207 /* ConvexMobile */,
 			);
 			productName = ToDoAppWithConvex;
 			productReference = 4F71CBC52EC6E6D200D0A8C7 /* ToDoAppWithConvex.app */;
@@ -564,6 +570,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F69B30A2ECB384100567207 /* ConvexMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F742A5C2EC770DD00631C90 /* XCRemoteSwiftPackageReference "convex-swift" */;
+			productName = ConvexMobile;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4F71CBBD2EC6E6D200D0A8C7 /* Project object */;
 }
